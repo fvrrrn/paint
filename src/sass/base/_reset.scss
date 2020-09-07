@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+textarea {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+legend {
+  display: table;
+  padding: 0;
+}
+
+textarea,
+input,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type='checkbox'] {
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  background-color: blue;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+  box-shadow: -7px 10px 0px -7px #ebebeb, 7px 10px 0px -7px #ebebeb;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+    box-shadow: -7px 10px 0px -7px #4ea6ea, 7px 10px 0px -7px #4ea6ea;
+  }
+}

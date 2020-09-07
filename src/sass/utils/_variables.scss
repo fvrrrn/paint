@@ -1,0 +1,14 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin);
+
+/// @type List
+$text-font-stack: 'Ubuntu' !default;
+// 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
+// 'Helvetica', 'Arial', 'Ubuntu' !default;
+
+/// @type Color
+$text-color-primary: black !default;
+
+/// @type Color
+$text-color-secondary: black !default;
+
+$background-color: white;

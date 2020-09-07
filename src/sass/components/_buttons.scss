@@ -1,0 +1,46 @@
+.c-button {
+  padding: 15px 20px 13px 20px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  &--first {
+    background: #2f80ed;
+    color: white;
+    &:hover:enabled {
+      background: #2974d9;
+    }
+    &:focus:enabled {
+      background: #2f80ed;
+      border: 2px solid rgba(47, 128, 237, 0.5);
+    }
+    &:active:enabled {
+      background: #236acb;
+    }
+    &:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+
+  &--second {
+    background: #e9e9e9;
+    color: black;
+    border: 2px solid transparent;
+    &:hover:enabled {
+      background: #dbdbdb;
+    }
+    &:focus:enabled {
+      background: #e9e9e9;
+      border: 2px solid #dbdbdb;
+    }
+    &:active:enabled {
+      background: #c4c4c4;
+    }
+    &:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}
