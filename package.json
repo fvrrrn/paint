@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
-    "deploy": "push-dir --dir=build --branch=gh-pages"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "keywords": [
     "js",
